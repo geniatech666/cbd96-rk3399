@@ -1,0 +1,88 @@
+/*
+ * (C) Copyright 2018 Rockchip Electronics Co., Ltd
+ *
+ * SPDX-License-Identifier:     GPL-2.0+
+ */
+
+/ {
+
+	chosen {
+		stdout-path = &uart2;
+	};
+};
+
+&dmc {
+	u-boot,dm-pre-reloc;
+};
+
+&cru {
+	u-boot,dm-pre-reloc;
+};
+
+&emmc {
+	u-boot,dm-pre-reloc;
+};
+
+&grf {
+	u-boot,dm-pre-reloc;
+};
+
+&nandc {
+	u-boot,dm-pre-reloc;
+	status = "okay";
+};
+
+&sfc {
+	u-boot,dm-pre-reloc;
+	status = "okay";
+};
+
+&saradc {
+	u-boot,dm-pre-reloc;
+	status = "okay";
+};
+
+&uart0 {
+	u-boot,dm-pre-reloc;
+};
+
+&uart1 {
+	u-boot,dm-pre-reloc;
+};
+
+&uart2 {
+	u-boot,dm-pre-reloc;
+	clock-frequency = <24000000>;
+	status = "okay";
+};
+
+&uart3 {
+	u-boot,dm-pre-reloc;
+};
+
+&uart4 {
+	u-boot,dm-pre-reloc;
+};
+
+&usb2phy_grf {
+	u-boot,dm-pre-reloc;
+};
+
+&u2phy {
+	u-boot,dm-pre-reloc;
+	status = "okay";
+};
+
+&u2phy_otg {
+	u-boot,dm-pre-reloc;
+	status = "okay";
+};
+
+&usb20_otg {
+	u-boot,dm-pre-reloc;
+	status = "okay";
+};
+
+&route_rgb {
+	status = "disabled";
+};
