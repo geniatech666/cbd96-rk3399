@@ -1,0 +1,5 @@
+config BR2_PACKAGE_GLMARK2
+	bool "glmark2"
+	help
+	  "a opengles benchmark"
+

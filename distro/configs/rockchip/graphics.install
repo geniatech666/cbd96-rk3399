@@ -1,0 +1,13 @@
+libpng-dev
+libjpeg-dev
+libegl1-mesa-dev
+libgles2-mesa-dev
+libgbm-dev
+libudev-dev
+libinput-dev
+libpixman-1-dev
+libxkbcommon-dev
+wayland-protocols
+libcairo2-dev
+libdbus-1-dev
+libxml2-dev
